@@ -1,0 +1,496 @@
+1
+00:00:01,720 --> 00:00:03,240
+A seguir temos as Strings.
+
+2
+00:00:03,240 --> 00:00:06,820
+Strings são o jeito JavaScript
+de manipular, armazenar e
+
+3
+00:00:06,820 --> 00:00:09,270
+processar texto plano.
+
+4
+00:00:09,270 --> 00:00:11,670
+A fim de sinalizar ao JavaScript
+que queremos
+
+5
+00:00:11,670 --> 00:00:14,990
+processar algum texto plano,
+precisamos usar um par de
+
+6
+00:00:14,990 --> 00:00:18,220
+aspas para cercar
+um texto quando queremos submeter
+
+7
+00:00:18,220 --> 00:00:20,680
+a String no Console
+
+8
+00:00:20,680 --> 00:00:24,560
+Aqui você pode ver duas strings diferentes
+"Raindrops On Roses"
+
+9
+00:00:24,560 --> 00:00:26,120
+e "Whiskers On Kittens"
+
+10
+00:00:26,120 --> 00:00:29,740
+Quando nós cercamos o texto com
+aspas, o JavaScript
+
+11
+00:00:29,740 --> 00:00:32,840
+reconhece-o como uma String e
+então retorna a String de forma correta
+
+12
+00:00:32,840 --> 00:00:34,320
+de volta pra nós.
+
+13
+00:00:34,320 --> 00:00:38,550
+Também podemos usar o operador "+",
+unicamente com Strings,
+
+14
+00:00:38,550 --> 00:00:40,780
+em um processo chamado
+concatenação.
+
+15
+00:00:40,780 --> 00:00:44,610
+A concatenação coloca Strings
+juntas dentro de uma única String
+
+16
+00:00:44,610 --> 00:00:47,560
+e retorna uma String original
+no final.
+
+17
+00:00:47,560 --> 00:00:51,440
+Aqui voce pode ver "Raindrops On Roses"
+concatenada com
+
+18
+00:00:51,440 --> 00:00:56,290
+outra String entre espaços em branco,
+concatenada com
+
+19
+00:00:56,290 --> 00:00:59,530
+outro conjunto de caracteres que diz
+"Whiskers On Kittens".
+
+20
+00:00:59,530 --> 00:01:01,750
+Como um resultado, nos temos
+"Raindrops On Roses
+
+21
+00:01:01,750 --> 00:01:03,000
+And Whiskers On Kittens".
+
+22
+00:01:07,050 --> 00:01:10,530
+Agora é hora de um pouco
+do que mais gosto em ... Strings.
+
+23
+00:01:10,530 --> 00:01:13,570
+A concatenação também funciona
+com numeros e suas
+
+24
+00:01:13,570 --> 00:01:15,530
+expressões.
+
+25
+00:01:15,530 --> 00:01:17,770
+Nesse primeiro exemplo, nós podemos
+ver que quando tentamos
+
+26
+00:01:17,770 --> 00:01:21,740
+concatenar "The meaning of life is"
+com o valor "42",
+
+27
+00:01:21,740 --> 00:01:24,410
+obtemos, perfeitamente, uma String válida
+no final, mas não está
+
+28
+00:01:24,410 --> 00:01:27,300
+formatada exatamente como
+nós queríamos.
+
+29
+00:01:27,300 --> 00:01:30,880
+Parece que estamos
+perdendo espaço.
+
+30
+00:01:30,880 --> 00:01:34,400
+Uma vez que a concatenação
+não fornece um espaço pra você,
+
+31
+00:01:34,400 --> 00:01:37,200
+o que todos nós precisamos fazer para consertar isso é
+pôr um espaço em branco dentro da própria
+
+32
+00:01:37,200 --> 00:01:38,450
+primeira String.
+
+33
+00:01:41,620 --> 00:01:45,190
+Também podemos concatenar
+expressões dentro de Strings.
+
+34
+00:01:45,190 --> 00:01:49,100
+De qualquer modo, as expressões conseguirão
+ser avaliadas pelo Console.
+
+35
+00:01:49,100 --> 00:01:53,830
+Como você vê aqui com 0,75,
+3/4 conseguiram ser avaliadas.
+
+36
+00:01:53,830 --> 00:01:56,320
+A fim de corrigir isso,
+normalmente precisamos pôr
+
+37
+00:01:56,320 --> 00:02:00,030
+a expressão dentro da String
+Deste jeito conseguimos o texto plano
+
+38
+00:02:00,030 --> 00:02:05,580
+de "3/4" em vez de 0,75.
+
+39
+00:02:05,580 --> 00:02:08,160
+Quando trabalhamos com Strings,
+você precisará alguns caracteres especiais
+
+40
+00:02:08,160 --> 00:02:11,370
+para realizar alguma
+formatação específica.
+
+41
+00:02:11,370 --> 00:02:14,220
+Aqui neste exemplo, você pode ver
+um "\t", o qual
+
+42
+00:02:14,220 --> 00:02:18,010
+representa um avanço
+para a próxima parada de tabulação.
+
+43
+00:02:18,010 --> 00:02:20,520
+Aqui, na saída, você pode ver
+que o "\t"
+
+44
+00:02:20,520 --> 00:02:23,810
+desapareceu, e em seu lugar
+está um avanço
+
+45
+00:02:23,810 --> 00:02:27,750
+da próxima para de tabulação
+dentro da String?
+
+46
+00:02:27,750 --> 00:02:29,670
+O que acontece se precisamos
+de aspas duplas
+
+47
+00:02:29,670 --> 00:02:30,980
+dentro de nossa String?
+
+48
+00:02:30,980 --> 00:02:33,250
+Bem, o Console olha
+as aspas duplas como
+
+49
+00:02:33,250 --> 00:02:34,910
+começo ou fim de uma String.
+
+50
+00:02:34,910 --> 00:02:38,740
+Então precisamos um jeito especial
+de escapar aquelas aspas duplas,
+
+51
+00:02:38,740 --> 00:02:41,190
+e então usar uma barra invertida
+antes da aspa
+
+52
+00:02:41,190 --> 00:02:43,320
+naquele caso também.
+
+53
+00:02:43,320 --> 00:02:46,370
+Em nossa resultado de saída, podemos ver
+que temos um conjunto de
+
+54
+00:02:46,370 --> 00:02:49,380
+aspas duplas
+dentro da String.
+
+55
+00:02:52,560 --> 00:02:54,660
+O que acontece se queremos uma barra invertida
+dentro de uma String?
+
+56
+00:02:54,660 --> 00:02:57,280
+Bem, visto que é um caractere especial,
+precisamos usar
+
+57
+00:02:57,280 --> 00:03:01,450
+uma dupla barra invertida para produzir somente
+uma barra invertida dentro
+
+58
+00:03:01,450 --> 00:03:02,770
+da String.
+
+59
+00:03:02,770 --> 00:03:05,550
+Depois disso, temos
+uma "\n" que
+
+60
+00:03:05,550 --> 00:03:07,670
+representa uma nova linha.
+
+61
+00:03:07,670 --> 00:03:10,940
+Você pode ver na saída aqui,
+que a String está dividida
+
+62
+00:03:10,940 --> 00:03:13,820
+em multiplas linhas por causa
+da "\n".
+
+63
+00:03:17,090 --> 00:03:19,470
+Isto não é de jeito nenhum
+uma exaustiva compilação
+
+64
+00:03:19,470 --> 00:03:22,350
+dos caracteres especiais para uso
+em formatação de Strings, e você pode
+
+65
+00:03:22,350 --> 00:03:24,770
+pesquisar o resto
+na internet.
+
+66
+00:03:24,770 --> 00:03:27,560
+Algumas vezes gostaríamos de comparar
+Strings em ordem alfabética
+
+67
+00:03:27,560 --> 00:03:29,820
+ou para casamento
+de Strings.
+
+68
+00:03:29,820 --> 00:03:33,060
+JavaScript permite-nos comparar
+Strings com
+
+69
+00:03:33,060 --> 00:03:34,640
+comparadores específicos.
+
+70
+00:03:34,640 --> 00:03:38,160
+Podemos usar um duplo sinal de "igual"
+para comparar "The Wright Brothers"
+
+71
+00:03:38,160 --> 00:03:41,200
+com "The Wright Brothers",
+a qual retorna
+
+72
+00:03:41,200 --> 00:03:46,210
+um valor verdadeiro porque aquelas
+Strings são exatamente a mesma.
+
+73
+00:03:46,210 --> 00:03:48,250
+Podemos ver que se usamos
+duplo sinal de "igual" em "The Wright Brothers"
+
+74
+00:03:48,250 --> 00:03:50,760
+e "Super Mario Brothers",
+que obteríamos
+
+75
+00:03:50,760 --> 00:03:52,530
+um valor falso, porque
+aquelas Strings
+
+76
+00:03:52,530 --> 00:03:54,320
+não são todas a mesma.
+
+77
+00:03:54,320 --> 00:03:55,760
+Agora, aqui temos um assunto complicado.
+
+78
+00:03:55,760 --> 00:03:59,520
+Se vemos "The Wright Brothers"
+comparado com "the wright brothers"
+
+79
+00:03:59,520 --> 00:04:03,670
+em um não é igual,
+isto retornará um
+
+80
+00:04:03,670 --> 00:04:05,530
+valor verdadeiro.
+
+81
+00:04:05,530 --> 00:04:08,470
+A razão pela qual isto ocorre é porque
+aquelas Strings não são exatamente
+
+82
+00:04:08,470 --> 00:04:11,350
+a mesma por causa que o JavaScript
+é caso sensível
+
+83
+00:04:11,350 --> 00:04:12,810
+com referência a Strings.
+
+84
+00:04:12,810 --> 00:04:14,060
+Então, elas não são iguais.
+
+85
+00:04:17,740 --> 00:04:21,120
+Também podemos acessar o comprimento
+das Strings usando
+
+86
+00:04:21,120 --> 00:04:22,540
+a propriedade "length".
+
+87
+00:04:22,540 --> 00:04:25,570
+Você pode ver aqui que temos
+uma super comprida
+
+88
+00:04:25,570 --> 00:04:28,450
+palavra inglesa,
+"antidisestablishmentarianism",
+
+89
+00:04:28,450 --> 00:04:31,030
+e usamos a propriedade ".length",
+que o Console JavaScript
+
+90
+00:04:31,030 --> 00:04:36,540
+retornaría um valor muito
+bom pra nós de "28".
+
+91
+00:04:36,540 --> 00:04:39,460
+E novamente, quando usamos
+"One Fish, Two Fish, Red Fish, Blue Fish",
+
+92
+00:04:39,460 --> 00:04:42,130
+se usamos a propriedade ".length"
+
+93
+00:04:42,130 --> 00:04:44,690
+o JavaScript retornará "39".
+
+94
+00:04:44,690 --> 00:04:47,830
+Agora, o que é realmente importante
+aqui é que a propriedade ".length"
+
+95
+00:04:47,830 --> 00:04:51,130
+calculará todos os espaços
+em branco e toda a
+
+96
+00:04:51,130 --> 00:04:55,340
+pontuação, determinando
+sua extensão.
+
+97
+00:04:55,340 --> 00:04:57,820
+Agora é hora de você usar sua
+técnica JavaScript novinha em folha
+
+98
+00:04:57,820 --> 00:04:59,730
+na seção de desafios
+
+99
+00:04:59,730 --> 00:05:01,000
+Nós vemos você na próxima
+
+100
+00:05:07,550 --> 00:05:08,320
+Barra Invertida.
+
+101
+00:05:08,320 --> 00:05:11,220
+Múltiplos, múltiplos caracteres especiais
+para usar na
+
+102
+00:05:11,220 --> 00:05:11,550
+formatação de String.
+
+103
+00:05:11,550 --> 00:05:12,990
+Eu não sei por que você está
+dizendo essa palavra duas vezes
+
+103
+00:05:11,550 --> 00:05:12,990
+[Risos de fundo]
+
+104
+00:05:12,990 --> 00:05:15,990
+Traduzido pela comunidade Duolingo
+Ajustes e adaptações @fabricio
