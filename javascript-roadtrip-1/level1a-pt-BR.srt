@@ -100,7 +100,7 @@ o vale das variáveis, veremos
 
 22
 00:00:50,740 --> 00:00:52,140
-os primeiros penhascos de valores
+os penhascos de valores primeiros
 
 23
 00:00:52,140 --> 00:00:53,690
@@ -109,7 +109,7 @@ sua rua.
 
 24
 00:00:53,690 --> 00:00:57,010
-penhascos embutidos, cachoeiras de arquivos,
+penhascos contruidos, cachoeiras de arquivos,
 array, arquipélago
 
 25
@@ -148,13 +148,13 @@ incrementar sua educação
 
 33
 00:01:06,580 --> 00:01:09,350
-Boa viagem e bom mergulho! No
-entanto de algumas funções 
+Boa viagem e bom mergulho!
+Tão longo quanto uma função
 
 34
 00:01:09,350 --> 00:01:14,210
-você não será poupado aqui, na...
-Viagem ao "JavaScript".
+você não será poupado, isso
+é JavaScript... uma viagem.
 
 35
 00:01:20,730 --> 00:01:21,380
