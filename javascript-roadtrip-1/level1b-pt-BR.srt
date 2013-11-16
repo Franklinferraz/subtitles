@@ -32,7 +32,7 @@ a String no Console
 
 8
 00:00:20,680 --> 00:00:24,560
-Aqui você pode ver duas strings diferentes
+Aqui você pode ver duas Strings diferentes
 "Raindrops On Roses"
 
 9
@@ -70,7 +70,7 @@ juntas dentro de uma única String
 
 16
 00:00:44,610 --> 00:00:47,560
-e retorna uma String original
+e retorna uma String nova
 no final.
 
 17
@@ -143,12 +143,12 @@ não fornece um espaço pra você,
 
 31
 00:01:34,400 --> 00:01:37,200
-o que todos nós precisamos fazer para consertar isso é
-pôr um espaço em branco dentro da própria
+o que todos nós precisamos fazer para
+consertar isso é pôr um espaço em branco
 
 32
 00:01:37,200 --> 00:01:38,450
-primeira String.
+dentro da própria primeira String.
 
 33
 00:01:41,620 --> 00:01:45,190
@@ -211,7 +211,7 @@ está um avanço
 
 45
 00:02:23,810 --> 00:02:27,750
-da próxima para de tabulação
+da próxima parada de tabulação
 dentro da String?
 
 46
@@ -225,7 +225,7 @@ dentro de nossa String?
 
 48
 00:02:30,980 --> 00:02:33,250
-Bem, o Console olha
+Bem, o console olha
 as aspas duplas como
 
 49
@@ -278,7 +278,7 @@ da String.
 59
 00:03:02,770 --> 00:03:05,550
 Depois disso, temos
-uma "\n" que
+uma "barra n" que
 
 60
 00:03:05,550 --> 00:03:07,670
@@ -292,7 +292,7 @@ que a String está dividida
 62
 00:03:10,940 --> 00:03:13,820
 em multiplas linhas por causa
-da "\n".
+da "barra n".
 
 63
 00:03:17,090 --> 00:03:19,470
@@ -388,7 +388,7 @@ aquelas Strings não são exatamente
 82
 00:04:08,470 --> 00:04:11,350
 a mesma por causa que o JavaScript
-é caso sensível
+é Case Sensitive
 
 83
 00:04:11,350 --> 00:04:12,810
@@ -405,7 +405,7 @@ das Strings usando
 
 86
 00:04:21,120 --> 00:04:22,540
-a propriedade "length".
+a propriedade ".length"
 
 87
 00:04:22,540 --> 00:04:25,570
